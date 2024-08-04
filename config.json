@@ -1,0 +1,15 @@
+{
+    "input": {
+        "file_pattern": "./logs/**/*.log",
+        "encoding": "UTF-8"
+    },
+    "output": [
+        {
+            "file": "./dist/out.log"
+        },
+        {
+            "file": "./dist/grep.log",
+            "text_pattern": "a[123]"
+        }
+    ]
+}
